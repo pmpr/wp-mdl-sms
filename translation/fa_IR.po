@@ -1,0 +1,163 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Pmpr SMS\n"
+"POT-Creation-Date: 2026-02-19 00:26+0330\n"
+"PO-Revision-Date: 2026-02-19 00:26+0330\n"
+"Last-Translator: Farshad Asgharzade <pmpr.dev@gmail.com>\n"
+"Language-Team: \n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: index.php\n"
+"X-Source-Language: en\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: lib\n"
+"X-Poedit-SearchPathExcluded-1: *.js\n"
+
+#: src/Pmpr/Module/SMS/AbstractSMS.php:46
+#: src/Pmpr/Module/SMS/Provider/Kavenegar/Setting.php:26
+msgid "Kavenegar"
+msgstr "کاوه‌نگار"
+
+#: src/Pmpr/Module/SMS/Model/Recipient.php:38
+msgid "User"
+msgstr "کاربر"
+
+#: src/Pmpr/Module/SMS/Model/Recipient.php:43
+msgid "Mobile"
+msgstr "موبایل"
+
+#: src/Pmpr/Module/SMS/Model/Recipient.php:48
+msgid "Sent To"
+msgstr "ارسال به"
+
+#: src/Pmpr/Module/SMS/Model/Recipient.php:53
+msgid "Guest"
+msgstr "مهمان"
+
+#: src/Pmpr/Module/SMS/Model/Recipient.php:66
+msgid "Tracking ID"
+msgstr "شناسه پیگیری"
+
+#: src/Pmpr/Module/SMS/Model/Recipient.php:71
+msgid "Status"
+msgstr "وضعیت"
+
+#: src/Pmpr/Module/SMS/Model/Recipient.php:73
+msgid "Awaiting to Send"
+msgstr "در انتظار ارسال"
+
+#: src/Pmpr/Module/SMS/Model/Recipient.php:74
+msgid "Sent"
+msgstr "ارسال شده"
+
+#: src/Pmpr/Module/SMS/Model/Recipient.php:75
+msgid "Pending"
+msgstr "در انتظار بررسی"
+
+#: src/Pmpr/Module/SMS/Model/Recipient.php:76
+msgid "Scheduled"
+msgstr "برنامه ریزی شده"
+
+#: src/Pmpr/Module/SMS/Model/Recipient.php:77
+msgid "Delivered"
+msgstr "تحویل داده شد"
+
+#: src/Pmpr/Module/SMS/Model/Recipient.php:78
+msgid "Undelivered"
+msgstr "تحویل داده نشد"
+
+#: src/Pmpr/Module/SMS/Model/Recipient.php:79
+msgid "Failed"
+msgstr "شکست خورد"
+
+#: src/Pmpr/Module/SMS/Model/Recipient.php:80
+msgid "Blocked"
+msgstr "مسدود شد"
+
+#: src/Pmpr/Module/SMS/Model/Recipient.php:81
+msgid "Other"
+msgstr "سایر"
+
+#: src/Pmpr/Module/SMS/Model/Recipient.php:86
+msgid "Status Text"
+msgstr "متن وضعیت"
+
+#: src/Pmpr/Module/SMS/Model/Recipient.php:90
+msgid "Created At"
+msgstr "تاریخ ایجاد"
+
+#: src/Pmpr/Module/SMS/Provider/Kavenegar/Setting.php:27
+msgid "Configuration"
+msgstr "پیکربندی"
+
+#: src/Pmpr/Module/SMS/Provider/Kavenegar/Setting.php:31
+msgid "General"
+msgstr "عمومی"
+
+#: src/Pmpr/Module/SMS/Provider/Kavenegar/Setting.php:34
+msgid "API Key"
+msgstr "کلید وب سرویس (API Key)"
+
+#: src/Pmpr/Module/SMS/Provider/Kavenegar/Setting.php:35
+msgid ""
+"The access key used to connect to the SMS panel web service and manage SMS "
+"operations."
+msgstr "کلید اتصال به وب‌سرویس پنل پیامکی جهت ارسال پیامک‌ها."
+
+#: src/Pmpr/Module/SMS/Provider/Kavenegar/Setting.php:39
+msgid "Templates"
+msgstr "الگو‌ها"
+
+#: src/Pmpr/Module/SMS/Provider/Kavenegar/Setting.php:40
+msgid "Add the pre-approved SMS templates registered in your SMS provider panel."
+msgstr "الگوهای آماده ثبت‌شده در پنل پیامکی سرویس‌دهنده را در این بخش وارد کنید."
+
+#: src/Pmpr/Module/SMS/Provider/Kavenegar/Setting.php:43
+msgid "Template Title"
+msgstr "عنوان الگو"
+
+#: src/Pmpr/Module/SMS/Provider/Kavenegar/Setting.php:47
+msgid "Template Name"
+msgstr "نام الگو"
+
+#: src/Pmpr/Module/SMS/Provider/Kavenegar/Setting.php:48
+msgid ""
+"The exact template name or identifier as registered in the SMS provider panel."
+msgstr "نام یا شناسه دقیق الگو که در پنل پیامکی ثبت شده است."
+
+#: src/Pmpr/Module/SMS/Provider/Kavenegar/Setting.php:53
+msgid "Senders (optional)"
+msgstr "شماره‌های ارسال (اختیاری)"
+
+#: src/Pmpr/Module/SMS/Provider/Kavenegar/Setting.php:54
+msgid ""
+"The sender numbers used to send SMS messages. If left empty, the default "
+"sender number will be used."
+msgstr ""
+"شماره‌ها یا خطوطی که پیامک‌ها با آن‌ها ارسال می‌شوند. در صورت خالی بودن، شماره "
+"پیش‌فرض پنل استفاده خواهد شد."
+
+#: src/Pmpr/Module/SMS/Provider/Kavenegar/Setting.php:57
+msgid "Title"
+msgstr "عنوان"
+
+#: src/Pmpr/Module/SMS/Provider/Kavenegar/Setting.php:61
+msgid "Sender"
+msgstr "ارسال با شماره"
+
+#: src/Pmpr/Module/SMS/SMS.php:20 src/Pmpr/Module/SMS/Setting/Setting.php:17
+msgid "SMS Panel"
+msgstr "پنل پیامکی"
+
+#: src/Pmpr/Module/SMS/Setting/Setting.php:18
+msgid "SMS Panel Setting"
+msgstr "تنظیمات پنل پیامک"
+
