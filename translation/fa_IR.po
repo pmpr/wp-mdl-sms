@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Pmpr SMS\n"
-"POT-Creation-Date: 2026-02-19 00:26+0330\n"
-"PO-Revision-Date: 2026-02-19 00:26+0330\n"
+"POT-Creation-Date: 2026-02-21 14:37+0330\n"
+"PO-Revision-Date: 2026-02-21 14:38+0330\n"
 "Last-Translator: Farshad Asgharzade <pmpr.dev@gmail.com>\n"
 "Language-Team: \n"
 "Language: fa_IR\n"
@@ -26,71 +26,71 @@ msgstr ""
 msgid "Kavenegar"
 msgstr "کاوه‌نگار"
 
-#: src/Pmpr/Module/SMS/Model/Recipient.php:38
+#: src/Pmpr/Module/SMS/Model/Recipient.php:40
 msgid "User"
 msgstr "کاربر"
 
-#: src/Pmpr/Module/SMS/Model/Recipient.php:43
-msgid "Mobile"
-msgstr "موبایل"
-
-#: src/Pmpr/Module/SMS/Model/Recipient.php:48
-msgid "Sent To"
-msgstr "ارسال به"
-
-#: src/Pmpr/Module/SMS/Model/Recipient.php:53
+#: src/Pmpr/Module/SMS/Model/Recipient.php:45
 msgid "Guest"
 msgstr "مهمان"
 
-#: src/Pmpr/Module/SMS/Model/Recipient.php:66
+#: src/Pmpr/Module/SMS/Model/Recipient.php:55
+msgid "Mobile"
+msgstr "موبایل"
+
+#: src/Pmpr/Module/SMS/Model/Recipient.php:64
 msgid "Tracking ID"
 msgstr "شناسه پیگیری"
 
-#: src/Pmpr/Module/SMS/Model/Recipient.php:71
+#: src/Pmpr/Module/SMS/Model/Recipient.php:69
+msgid "Cost"
+msgstr "هزینه"
+
+#: src/Pmpr/Module/SMS/Model/Recipient.php:74
 msgid "Status"
 msgstr "وضعیت"
 
-#: src/Pmpr/Module/SMS/Model/Recipient.php:73
+#: src/Pmpr/Module/SMS/Model/Recipient.php:76
 msgid "Awaiting to Send"
 msgstr "در انتظار ارسال"
 
-#: src/Pmpr/Module/SMS/Model/Recipient.php:74
+#: src/Pmpr/Module/SMS/Model/Recipient.php:77
 msgid "Sent"
 msgstr "ارسال شده"
 
-#: src/Pmpr/Module/SMS/Model/Recipient.php:75
+#: src/Pmpr/Module/SMS/Model/Recipient.php:78
 msgid "Pending"
 msgstr "در انتظار بررسی"
 
-#: src/Pmpr/Module/SMS/Model/Recipient.php:76
+#: src/Pmpr/Module/SMS/Model/Recipient.php:79
 msgid "Scheduled"
 msgstr "برنامه ریزی شده"
 
-#: src/Pmpr/Module/SMS/Model/Recipient.php:77
+#: src/Pmpr/Module/SMS/Model/Recipient.php:80
 msgid "Delivered"
 msgstr "تحویل داده شد"
 
-#: src/Pmpr/Module/SMS/Model/Recipient.php:78
+#: src/Pmpr/Module/SMS/Model/Recipient.php:81
 msgid "Undelivered"
 msgstr "تحویل داده نشد"
 
-#: src/Pmpr/Module/SMS/Model/Recipient.php:79
+#: src/Pmpr/Module/SMS/Model/Recipient.php:82
 msgid "Failed"
 msgstr "شکست خورد"
 
-#: src/Pmpr/Module/SMS/Model/Recipient.php:80
+#: src/Pmpr/Module/SMS/Model/Recipient.php:83
 msgid "Blocked"
 msgstr "مسدود شد"
 
-#: src/Pmpr/Module/SMS/Model/Recipient.php:81
+#: src/Pmpr/Module/SMS/Model/Recipient.php:84
 msgid "Other"
 msgstr "سایر"
 
-#: src/Pmpr/Module/SMS/Model/Recipient.php:86
+#: src/Pmpr/Module/SMS/Model/Recipient.php:89
 msgid "Status Text"
 msgstr "متن وضعیت"
 
-#: src/Pmpr/Module/SMS/Model/Recipient.php:90
+#: src/Pmpr/Module/SMS/Model/Recipient.php:93
 msgid "Created At"
 msgstr "تاریخ ایجاد"
 
@@ -154,10 +154,16 @@ msgid "Sender"
 msgstr "ارسال با شماره"
 
 #: src/Pmpr/Module/SMS/SMS.php:20 src/Pmpr/Module/SMS/Setting/Setting.php:17
-msgid "SMS Panel"
-msgstr "پنل پیامکی"
+msgid "SMS"
+msgstr "ارسال پیامک"
 
 #: src/Pmpr/Module/SMS/Setting/Setting.php:18
-msgid "SMS Panel Setting"
-msgstr "تنظیمات پنل پیامک"
+msgid "SMS Setting"
+msgstr "تنظیمات ارسال پیامک"
+
+#~ msgid "Sent To"
+#~ msgstr "ارسال به"
+
+#~ msgid "SMS Panel"
+#~ msgstr "پنل پیامکی"
 
